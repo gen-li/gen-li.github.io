@@ -24,7 +24,6 @@ social: false  # includes social icons at the bottom of the page
 
 <br>
 <br>
-<br>
 
 ## Gen Li
 
