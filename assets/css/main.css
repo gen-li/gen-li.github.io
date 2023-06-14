@@ -224,7 +224,7 @@ blockquote {
 }
 .profile .address p {
   display: inline-block;
-  margin: 0;
+  margin: 50;
 }
 
 .profile.float-right {
