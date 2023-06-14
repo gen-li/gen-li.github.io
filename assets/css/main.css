@@ -224,7 +224,7 @@ blockquote {
 }
 .profile .address p {
   display: inline-block;
-  margin: 500;
+  margin: 100;
 }
 
 .profile.float-right {
@@ -542,7 +542,7 @@ footer.sticky-bottom {
 }
 
 .publications {
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 .publications h1 {
   color: var(--global-theme-color);
