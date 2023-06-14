@@ -126,8 +126,13 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+p, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
+  font-family: "Open Sans";
+}
+
+h1, h2 {
+  color: var(--global-theme-color);
   font-family: "Open Sans";
 }
 
