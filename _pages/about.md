@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<span class="font-weight-bold">Gen Li</span> 
+<!-- <span class="font-weight-bold">Gen Li</span>  -->
 
-# Gen Li
+## Gen Li
 
 Welcome! I am a Finance PhD student at The University of British Columbia (UBC) Sauder School of Business. Before joining UBC, I worked as pre-doctoral research associate at Yale School of Management. My research focuses on empirical asset pricing and housing markets.
 
