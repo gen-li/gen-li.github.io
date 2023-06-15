@@ -21,13 +21,12 @@ social: false  # includes social icons at the bottom of the page
 
 <!-- <span class="font-weight-bold">Gen Li</span>  -->
 
-
 <br>
 <br>
 
 ## Gen Li
-### Finance PhD student
-#### The University of British Columbia (UBC)
+**Finance PhD student**
+**The University of British Columbia (UBC)**
 
 
 <br>
