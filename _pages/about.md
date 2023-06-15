@@ -25,8 +25,16 @@ social: false  # includes social icons at the bottom of the page
 <br>
 
 ## Gen Li
+###### Finance PhD student
+
+
+
 **Finance PhD student**
+
 **The University of British Columbia (UBC)**
+
+
+
 
 
 <br>
