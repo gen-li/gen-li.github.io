@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Gen Li
-permalink: 
+permalink: /
 subtitle: 
 
 profile:
