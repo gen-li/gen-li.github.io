@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Gen Li
-permalink: /
+permalink: 
 subtitle: 
 
 profile:
@@ -21,7 +21,6 @@ social: false  # includes social icons at the bottom of the page
 
 <!-- <span class="font-weight-bold">Gen Li</span>  -->
 
-<br>
 <br>
 
 ## Gen Li
