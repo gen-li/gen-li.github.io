@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Gen Li
+title: Home
 permalink: /
 subtitle: 
 
