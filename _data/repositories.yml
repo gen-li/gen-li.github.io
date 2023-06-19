@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gen-li
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Replic_barberis_jin_wang_2021
+  - Replicate_PEAD
+  - Extract_TAQ_from_WRDS_Cloud
+  - DansonGo
+  - DansonGo3
