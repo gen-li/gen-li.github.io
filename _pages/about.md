@@ -38,7 +38,7 @@ social: false  # includes social icons at the bottom of the page
 
 Welcome! I am a Finance PhD student at The University of British Columbia (UBC) Sauder School of Business. Before joining UBC, I worked as pre-doctoral research associate at Yale School of Management. My research focuses on empirical asset pricing and housing markets.
 
-Download [**Curriculum Vitae**](https://www.dropbox.com/scl/fi/s31nxupuyttho03q2nonp/Resume_GenLi.pdf?dl=0&rlkey=34mu0zic5v89qtg3kr9gnxkkg)
+Download [Curriculum Vitae](https://www.dropbox.com/scl/fi/s31nxupuyttho03q2nonp/Resume_GenLi.pdf?dl=0&rlkey=34mu0zic5v89qtg3kr9gnxkkg)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
