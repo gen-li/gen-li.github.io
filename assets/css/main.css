@@ -684,6 +684,8 @@ footer.sticky-bottom {
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
   font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 figure.highlight {
