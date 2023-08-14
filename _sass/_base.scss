@@ -709,6 +709,7 @@ footer.sticky-bottom {
         border: dashed 1px var(--global-bg-color);
         padding-left: 10px; // Decrease as necessary
         padding-right: 10px; // Decrease as necessary
+        max-width: 1200px;
       }
 
       div.abstract.hidden.open {
@@ -716,6 +717,7 @@ footer.sticky-bottom {
         font-size: 1em;
         padding-left: 10px; // Decrease as necessary
         padding-right: 10px; // Decrease as necessary
+        max-width: 1200px;
       }
     }
   }
