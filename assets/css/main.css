@@ -543,6 +543,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 1rem;
+  max-width: 1200px;
 }
 .publications h1 {
   color: var(--global-theme-color);
