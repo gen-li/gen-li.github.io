@@ -49,13 +49,18 @@
     }
 
     /* Profile */
-    #contact { overflow: hidden; }
-    #contact-text { overflow: hidden; }
+    #contact { overflow: hidden; --photo-h: 375px; }
+    #contact-text {
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: var(--photo-h);
+    }
     img#profile-photo {
       float: left;
       margin-right: 32px;
       margin-bottom: 20px;
-      height: 375px;
+      height: var(--photo-h);
       width: auto;
       border-radius: 10px;
     }
@@ -82,7 +87,7 @@
     .bio-text { font-size: 15px; color: #2a2a2a; line-height: 1.6; margin: 8px 0 5px; }
 
     /* Buttons */
-    .contact-buttons { display: flex; flex-wrap: wrap; gap: 5px; margin: 12px 0 0; padding: 0; list-style: none; }
+    .contact-buttons { display: flex; flex-wrap: wrap; gap: 5px; margin: 12px 0 0; margin-top: auto; padding: 0; list-style: none; }
     .button {
       background-color: rgb(0, 53, 107);
       color: #fff;
@@ -166,6 +171,8 @@
       #container { margin: 24px 18px; }
       #center { margin-left: 0; margin-right: 0; width: 100%; }
       img#profile-photo { display: block; float: none; margin: 0 auto 22px; height: auto; width: 220px; }
+      #contact-text { display: block; min-height: 0; }
+      .contact-buttons { margin-top: 12px; }
     }
   </style>
 </head>
@@ -180,6 +187,7 @@
       alt="Gen Li">
 
     <div id="contact-text">
+      <div class="contact-body">
       <div class="name-row">
         <h1>Gen Li</h1><span class="name-chinese"> · 李根</span>
       </div>
@@ -194,7 +202,7 @@
       </p>
       <br>
       <p class="bio-text">
-        I received my Finance PhD from the University of British Columbia and was previously the
+        I received my PhD in Finance from the University of British Columbia and was previously the
         <a href="https://som.yale.edu/blog/dawn-blossoms-plucked-at-dusk-my-life-at-yale">Zannoni Research Associate</a>
         at the Yale School of Management.
       </p>
@@ -202,6 +210,8 @@
       <p class="bio-text" style="margin-bottom:14px;">
         <strong>Research Interests:</strong> Real Estate Finance, Macro Finance, Household Finance
       </p>
+
+      </div>
 
       <div class="contact-buttons">
         <a class="button" id="email-link" href="#" data-user="genli" data-domain="unsw.edu.au">Email</a>
