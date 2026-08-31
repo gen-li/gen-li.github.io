@@ -178,26 +178,28 @@
       <div class="name-row">
         <h1>Gen Li</h1><span class="name-chinese"> · 李根</span>
       </div>
-      <p class="subtitle">Finance Ph.D. Candidate</p>
-      <p class="subtitle-inst">University of British Columbia, Sauder School of Business</p>
+      <p class="subtitle">Assistant Professor of Finance</p>
+      <p class="subtitle-inst">UNSW Business School, University of New South Wales</p>
 
       <br>
       <p class="bio-text">
-        Welcome! I am a Finance PhD candidate at the
-        <a href="https://www.sauder.ubc.ca/">University of British Columbia (UBC) Sauder School of Business</a>.
-        Before joining UBC, I worked as a
-        <a href="https://som.yale.edu/blog/dawn-blossoms-plucked-at-dusk-my-life-at-yale">pre-doctoral research associate</a>
-        at Yale School of Management.
+        Welcome! I am an Assistant Professor of Finance at the
+        <a href="https://www.unsw.edu.au/business">UNSW Business School</a>,
+        University of New South Wales, in Sydney, Australia.
       </p>
       <br>
-      <p class="bio-text">I will join <a href="https://www.unsw.edu.au/business/our-schools/banking-finance">UNSW</a> as an <strong>Assistant Professor of Finance</strong> in Fall 2026.</p>
+      <p class="bio-text">
+        I received my Finance PhD from the University of British Columbia and was previously the
+        <a href="https://som.yale.edu/blog/dawn-blossoms-plucked-at-dusk-my-life-at-yale">Zannoni Research Associate</a>
+        at the Yale School of Management.
+      </p>
       <br>
       <p class="bio-text" style="margin-bottom:14px;">
-        <strong>Research Interests:</strong> Real Estate Finance, Empirical Asset Pricing, Household Finance
+        <strong>Research Interests:</strong> Real Estate Finance, Macro-Finance, Household Finance
       </p>
 
       <div class="contact-buttons">
-        <a class="button" href="/cdn-cgi/l/email-protection#6d0a08034301042d1e0c1809081f43180f0e430e0c">Email</a>
+        <a class="button" id="email-link" href="#" data-user="genli" data-domain="unsw.edu.au">Email</a>
         <a class="button" href="https://www.dropbox.com/scl/fi/8wx56hkb26kos5yeolb52/Resume_GenLi_v2025.pdf?rlkey=zrmur5a9qgk3zonq09xv35z8f&dl=0" target="_blank">CV</a>
         <a class="button" href="https://scholar.google.com/citations?user=WEfxcGIAAAAJ&hl=en" target="_blank">Google Scholar</a>
         <a class="button" href="https://github.com/gen-li" target="_blank">GitHub</a>
@@ -213,8 +215,8 @@
   <!-- 1. JMP -->
   <div class="paper-entry">
     <span class="paper-number">[1]</span> <span class="paper-title"><a href="https://www.dropbox.com/scl/fi/ex55bvajokdwzctjycslj/monetary_policy_and_housing_duration_main.pdf?rlkey=ngrfrqbqjm77tsvycwgbevsjq&e=1&st=db6g0oyw&dl=0" target="_blank">"Housing Duration and Interest Rates: Evidence from Reaching-for-Income Investors"</a></span> <span class="paper-coauthor">(solo)</span>
-    <span class="paper-venue">Working Paper, 2025 &nbsp;·&nbsp; <em>Job Market Paper</em></span>
-    <div class="paper-indent">- <em>Selected Conferences:</em> 21st Annual Olin Finance Conference at WashU (2025), 2025 Bank of Canada Graduate Student Paper Award Workshop, FMA (2025), NFA (2025), UEA (2025), AFA PhD poster session (2026), USC PhD conference (2025).</div>
+    <span class="paper-venue">Working Paper, 2025</span>
+    <div class="paper-indent">- <em>Selected Conferences:</em> 21st Annual Olin Finance Conference at WashU (2025), 2025 Bank of Canada Graduate Student Paper Award Workshop, NFA (2025), UEA (2025), AFA PhD poster session (2026), USC PhD conference (2025).</div>
     <div class="paper-indent">- <em>Awards:</em> Canadian Securities Institute Research Foundation PhD Award;
       <a href="https://www.bankofcanada.ca/research/research-paper-awards/" target="_blank">Bank of Canada Graduate Student Paper Award (2025)</a>;
       Semi-finalist for the Best Paper Award at the 2025 FMA Annual Meeting.</div>
@@ -320,10 +322,20 @@
 
   <hr>
 
-    <p class="site-footer">gen.li@sauder.ubc.ca &nbsp;&middot;&nbsp; Vancouver, BC, Canada</p>
+    <p class="site-footer"><span id="email-footer">genli [at] unsw.edu.au</span> &nbsp;&middot;&nbsp; Sydney, NSW, Australia</p>
 
 </div>
 </div>
+
+<script>
+  (function () {
+    var addr = 'genli' + '@' + 'unsw.edu.au';
+    var link = document.getElementById('email-link');
+    if (link) { link.href = 'mailto:' + addr; }
+    var foot = document.getElementById('email-footer');
+    if (foot) { foot.textContent = addr; }
+  })();
+</script>
 
 <!-- Default Statcounter code for My website https://www.gen-li.com -->
 <script type="text/javascript">
