@@ -106,7 +106,8 @@
     .button.grey:hover { background-color: #bbb; }
 
     /* Papers */
-    .paper-entry { margin-bottom: 40px; }
+    .paper-entry { margin-bottom: 30px; }
+    .paper-entry + .paper-entry { border-top: 1px solid #ececec; padding-top: 30px; }
     .paper-number { font-family: Georgia, serif; font-weight: 600; font-size: 15px; color: #111; margin-right: 3px; }
     .paper-title { font-size: 15px; font-weight: 600; color: rgb(0, 53, 107); }
     .paper-title a { color: rgb(0, 53, 107); }
@@ -147,6 +148,27 @@
       user-select: none;
     }
     .abstract-btn:hover { background-color: #bbb; }
+
+    /* Secondary buttons: outlined inside paper and teaching entries.
+       The contact row stays filled, being the page's primary action. */
+    .paper-entry .button, .teaching-entry .button {
+      background-color: transparent;
+      color: #00356B;
+      border: 1px solid #b6c4d3;
+      padding: 3px 10px;
+    }
+    .paper-entry .button:hover, .teaching-entry .button:hover {
+      background-color: #00356B;
+      color: #fff;
+      border-color: #00356B;
+    }
+    .abstract-btn {
+      background-color: transparent;
+      color: #00356B;
+      border: 1px solid #b6c4d3;
+      padding: 3px 10px;
+    }
+    .abstract-btn:hover { background-color: #eef2f6; border-color: #9fb3c6; }
     details[open] .abstract-btn::after { content: " ▲"; font-size: 9px; vertical-align: middle; }
     details:not([open]) .abstract-btn::after { content: " ▼"; font-size: 9px; vertical-align: middle; }
     .popup {
@@ -230,7 +252,7 @@
 
   <!-- 1. JMP -->
   <div class="paper-entry">
-    <span class="paper-number">[1]</span> <span class="paper-title"><a href="https://www.dropbox.com/scl/fi/ex55bvajokdwzctjycslj/monetary_policy_and_housing_duration_main.pdf?rlkey=ngrfrqbqjm77tsvycwgbevsjq&e=1&st=db6g0oyw&dl=0" target="_blank">"Housing Duration and Interest Rates: Evidence from Reaching-for-Income Investors"</a></span><span class="paper-year">, 2025</span>
+    <span class="paper-number">[1]</span> <span class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379858" target="_blank">"Housing Duration and Interest Rates: Evidence from Reaching-for-Income Investors"</a></span><span class="paper-year">, 2025</span>
     <span class="paper-finding">Unlike bonds, short-duration housing is more sensitive to interest rates, because income-seeking investors chase its higher rental yields.</span>
     <div class="paper-indent">- <em>Selected Conferences:</em> 21st Annual Olin Finance Conference at WashU (2025), 2025 Bank of Canada Graduate Student Paper Award Workshop, NFA (2025), UEA (2025), AFA PhD poster session (2026), USC PhD conference (2025).</div>
     <div class="paper-indent">- <em>Awards:</em> <span class="award-list">
@@ -245,6 +267,7 @@
           In fixed-income markets, long-duration assets are more sensitive to interest rate changes, and this principle is commonly assumed to extend to other asset classes. I show that the opposite holds in housing markets: short-duration properties are more, not less, sensitive to interest rate changes. Using data from the American Community Survey, I find that a one-percentage-point cut in interest rates raises house prices by 1.86 percentage points over two years. However, housing markets with a duration one standard deviation below the mean experience an additional 0.71-percentage-point price increase. I argue that this inversion arises from a discount-rate channel driven by "reaching-for-income" investors. Short-duration properties offer higher rental yields. After rate cuts, income-seeking investors disproportionately target high-yield, short-duration properties for investment, prioritizing near-term income over long-term returns. This behavior pushes up prices and lowers discount rates in short-duration markets, generating a non-parallel shift in the term structure of housing discount rates. These findings highlight investor preferences as an important driver of heterogeneity in housing market responses to interest rate changes.
         </p>
       </details>
+      <a class="button" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379858" target="_blank">SSRN</a>
       <a class="button" href="https://www.dropbox.com/scl/fi/vz2irqcdja31fs2j0lvx3/monetary_policy_and_housing_duration_internet_appendix.pdf?rlkey=gr8mdlb4vttngfo8pyvw5rzdm&st=0kkttv1v&dl=0" target="_blank">Internet Appendix</a>
     </div>
   </div>
@@ -262,6 +285,7 @@
           This paper introduces "spatial extrapolation," a concept that refers to how economic expectations for one region are formed by extrapolating from the economic outcomes of another geographic area. We demonstrate this unique form of extrapolation by analyzing the purchasing behavior of out-of-town (OOT) homebuyers. Using data from approximately 3 million OOT housing transactions in the U.S. between 2002 and 2017, we find that a 50% increase in five-year hometown house prices leads OOT buyers to pay 2% more for OOT properties. The higher the hometown house price growth, the lower the realized returns and purchase discounts obtained by OOT buyers. To rule out the wealth effect, the paper designs two strategies. First, we classify renters, migrants, and second-home buyers to control the wealth increase from hometown properties. Second, we estimate geographic heterogeneity in extrapolative beliefs. We find that OOT buyers from higher extrapolation hometowns increase their purchase prices more after hometown house price growth. Overall, our research highlights the potential spillover effects of extrapolation into other asset markets and provides evidence that extrapolative expectations have broader effects than previously recognized.
         </p>
       </details>
+      <a class="button" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4536866" target="_blank">SSRN</a>
     </div>
   </div>
 
@@ -278,6 +302,7 @@
           Following the Covid-19 pandemic, U.S. labor force participation declined significantly in 2020, slowly recovering in 2021 and 2022 — this has been referred to as the Great Resignation. The decline has been concentrated among older Americans. By 2022, the labor force participation of workers in their prime returned to its 2019 level, while older workers' participation continued to fall, responsible for almost the entire decline in the overall labor force participation rate. At the same time, the U.S. experienced large booms in both the equity and housing markets. We show that the Great Resignation among older workers can be fully explained by increases in housing wealth. MSAs with stronger house price growth tend to have lower participation rates, but only for homeowners around retirement age — a 65-year-old homeowner's unconditional participation rate of 44.8% falls to 43.9% if he experiences a 10% excess house price growth. A counterfactual shows that if housing returns in 2021 would have been equal to 2019 returns, there would have been no decline in the labor force participation of older Americans. To better understand these empirical findings, we build a life cycle model with realistic heterogeneity in wealth, income, and ownership status. We show that in response to a positive shock to house prices, owners reduce hours while renters increase hours, as in our empirical results.
         </p>
       </details>
+      <a class="button" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335860" target="_blank">SSRN</a>
     </div>
   </div>
 
@@ -292,6 +317,7 @@
           Using around 8 million housing transactions in California from 1994 to 2017, I find that Chinese overseas buyers (COB) earn 4.5% lower returns than other cash buyers, controlling for market timing and location factors. The large gap in housing returns is driven by purchase prices instead of sale prices. Controlling cash payment benefits, property, and market timing, COB will pay 8–12% higher prices than other cash buyers. By implementing DID event study and two-way fixed effects DID models, I find that 10% overpayment can be explained by the lack of investment opportunities arising from home-purchase restrictions in China. The remaining overpayment can be due to cultural differences. Combining IV and DID estimation, I explore the influence of COBs on U.S. local housing prices.
         </p>
       </details>
+      <a class="button" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4445791" target="_blank">SSRN</a>
     </div>
   </div>
 
