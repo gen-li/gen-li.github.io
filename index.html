@@ -43,9 +43,9 @@
     /* Layout */
     #container { margin: 50px; position: relative; }
     #center {
-      margin-left: max(15%, calc(50% - 450px));
-      margin-right: max(15%, calc(50% - 450px));
-      width: min(70%, 900px);
+      margin-left: max(6%, calc(50% - 530px));
+      margin-right: max(6%, calc(50% - 530px));
+      width: min(88%, 1060px);
     }
 
     /* Profile */
@@ -82,9 +82,9 @@
     .subtitle-inst {
       font-size: 15px;
       color: #666;
-      margin: 0 0 26px;
+      margin: 0 0 34px;
     }
-    .bio-text { font-size: 16px; color: #2a2a2a; line-height: 1.6; margin: 0 0 26px; }
+    .bio-text { font-size: 16px; color: #2a2a2a; line-height: 1.6; margin: 0 0 44px; }
     .bio-text:last-of-type { margin-bottom: 0; }
 
     /* Buttons */
@@ -182,6 +182,7 @@
       display: block;
       border-left: 3px solid #e0e0e0;
       padding-left: 14px;
+      padding-right: max(0px, calc(100% - 730px));
     }
 
     /* Teaching */
@@ -195,10 +196,13 @@
     /* Mobile */
     @media screen and (max-width: 1099px) {
       #container { margin: 24px 18px; }
-      #center { margin-left: 0; margin-right: 0; width: 100%; }
+      #center { margin-left: auto; margin-right: auto; width: 100%; max-width: 720px; }
       img#profile-photo { display: block; float: none; margin: 0 auto 22px; height: auto; width: 220px; }
       #contact-text { display: block; min-height: 0; }
       .contact-buttons { margin-top: 12px; }
+      .popup { padding-right: 0; }
+      .subtitle-inst { margin-bottom: 26px; }
+      .bio-text { margin-bottom: 26px; }
     }
   </style>
 </head>
